@@ -3,7 +3,7 @@
 
 - Clone this repo into your project directory.
 - Replace line 8 in `async_celery/app.py` with your own value.
-- paste these 2 lines in `<BASE_DIR>/<settings_folder>/__init__.py`
+- paste these 2 lines in `<BASE_DIR>/<settings_folder>/__init__.py`:
 
 <pre>
   <code>
@@ -13,4 +13,4 @@
 </pre>
 
 - locks require `pymemcache` and `redis`.
-- `celery_results` relies on `django_celery_results`
+- `celery_results` relies on `django_celery_results`.
