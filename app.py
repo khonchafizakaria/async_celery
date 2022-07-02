@@ -5,7 +5,7 @@ from django.db import transaction
 from celery import Celery, Task
 
 # Set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', '<project_name>.settings')
 
 
 app = Celery(
