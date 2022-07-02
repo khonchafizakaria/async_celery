@@ -4,6 +4,8 @@ Clone this repo into your project directory
 
 copy these 2 lines in `<BASE_DIR>/<settings_folder>/__init__.py`
 
+replace line 8 in `async_celery/config.py` with your own value.
+
 <pre>
 <code>
 from __future__ import absolute_import
