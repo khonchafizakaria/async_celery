@@ -1,4 +1,5 @@
-# async_celery
+# async_celery 
+[This repo is configured from my own, replace with your own values]
 
 - Clone this repo into your project directory.
 
@@ -12,3 +13,5 @@
     from async_celery.app import app as celery_app
    </code>
 </pre>
+
+- locks require `pymemcache` and `redis`.
