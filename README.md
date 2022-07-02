@@ -1,5 +1,5 @@
 # async_celery 
-[This repo is configured from my own, replace with your own values]
+[This repo is configured from my own use, replace with your own values]
 
 - Clone this repo into your project directory.
 - Replace line 8 in `async_celery/app.py` with your own value.
